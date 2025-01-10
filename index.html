@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hi</title>
+</head>
+<body>
+
+    <h1>Hi, Sopran 🦋</h1>
+    <button class="button" id="startButton">Klik ini ya</button>
+
+    <div id="choiceSection" class="hidden">
+        <h2>Mau ga jadi teman dekatku?</h2>
+        <form id="responseForm" action="https://formspree.io/f/xjkkjyrn" method="POST">
+            <input type="hidden" name="response" id="userResponse">
+            <div class="choice">
+                <button type="button" class="mau" id="yesButton">MAU!!</button>
+                <button type="button" class="tidak" id="noButton">TIDAK!!</button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ff3bb4; /* Warna latar belakang cerah */
+    color: #ffffff; /* Warna teks */
+    text-align: center;
+    padding: 50px;
+}
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.button {
+    background-color: #b9003e; /* Warna tombol */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.button:hover {
+    background-color: #f50057; /* Warna tombol saat hover */
+}
+.hidden {
+    display: none;
+}
+.choice {
+    margin-top: 30px;
+}
+.choice button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.choice button.mau {
+    background-color: #009505; /* Warna tombol MAU */
+    color: white;
+}
+.choice button.tidak {
+    background-color: #f01c0d; /* Warna tombol TIDAK */
+    color: white;
+}
+.choice button:hover {
+    opacity: 0.8;
+}
